@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Page</title>
+</head>
+<body>
+    <form>
+        <h1> Student Details Form</h1>
+        <label> Name:</label>
+        <input type="'text" placeholder="Enter your name"/><br/><br/>
+        <label> DOB:</label>
+        <input type="date"/><br/><br/>
+        <label> Age:</label>
+        <input type="number" placeholder="Enter your age"/><br/><br/>
+        <label> College name:</label>
+        <input type="text" placeholder="Enter your College name"/><br/><br/>
+        <label> Phone no:</label>
+        <input type="number" placeholder="Enter phone no"/><br/><br/>
+        <fieldset style="width: 20%;">
+            <legend> gender : </legend>
+            <input type="radio" name="gender" id="male" value="male"/>
+            <label> Male </label><br/>
+            <input type="radio" name="gender" id="female" value="female"/>
+            <label> Female </label><br/>
+        </fieldset><br/><br/>
+        <fieldset style="width: 30%;">
+            <legend> Skills : </legend>
+            <input type="checkbox" name="Skills" id="html" value="html"/>
+            <label> Html </label><br/>
+            <input type="checkbox" name="skills" id="CSS" value="CSS"/>
+            <label> CSS </label><br/>
+            <input type="checkbox" name="skills" id="JavaScript" value="JavaScript"/>
+            <label> JavaScript </label><br/>
+            <input type="checkbox" name="skills" id="Java" value="Java"/>
+            <label> Java </label><br/>
+            <input type="checkbox" name="skills" id="Python" value="Python"/>
+            <label> python </label>
+        </fieldset><br/><br/>
+         <label> select role: </label>
+         <select id="role" name="role" required> 
+            <option value="'student"> student</option>
+            <option value="employee"> employee</option>
+         </select><br/><br/>
+         <label> resume:</label>
+         <input type="file" id="resume" name="resume" accept=".pdf, .doc, .docx" required/>
+         <br/><br/>
+         <label> email:</label>
+         <input type="email" id="email" name="email" required/><br/><br/>
+         <label> password :</label>
+         <input type="password" id="password" name="password" required/><br/><br/>
+         <label> Note:</label>
+         <textarea></textarea>
+         <br/><br/>
+         <button> Submit</button>
+    </form>
+</body>
+</html>
